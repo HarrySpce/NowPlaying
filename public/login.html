@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content="login" property="og:title"/>
+    <meta content="authenticate" property="og:description"/>
+    <meta content="#000000" data-react-helmet="true" name="theme-color"/>
+    <meta content="https://np.harry.report/icons/img.png" property="og:image"/>
+    <title>authenticate</title>
+    <link rel="icon" type="image/x-icon" href="icons/img.png">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+	<div class="top t"></div>    
+    <div id="content">
+        <h1>Authenticate</h1>
+        <button id="login-button">
+            <img src="icons/spotify.png" alt="" class="button-icon">
+        </button>
+        <p>(private, <a href="https://harry.report" style="text-decoration: none;"><span style="position: relative; background: linear-gradient(to right, #FFC531 0%, #26D083 100%); background-clip: text; color: transparent;">go back</span></a> or <a href="https://github.com/HarrySpce/NowPlaying" style="text-decoration: none;"><span style="position: relative; background: linear-gradient(to right, #26D083 0%, #FFC531 100%); background-clip: text; color: transparent;">make your own!</span></a>)</p>
+    </div>
+<script>
+document.getElementById('login-button').addEventListener('click', () => {
+    window.location.href = '/auth';});
+</script>
+</body>
+</html>

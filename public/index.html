@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content="now playing" property="og:title"/>
+    <meta content="display current song via spotify api" property="og:description"/>
+    <meta content="#1ed760" name="theme-color"/>
+    <meta content="https://np.harry.report/icons/img.png" property="og:image"/>
+    <title>now playing</title>
+    <link rel="icon" type="image/x-icon" href="icons/img.png">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="content">
+        <div id="song-info">
+            <img id="album-art" src="" alt="cover" onerror="this.onerror=null;this.src='icons/cie.png';">
+            <div id="text-info">
+                <h1 id="now-playing-title">now playing <img id="icon" class="inline-icon" src="icons/spotifyicon.png"></h1>
+                <p id="song-name"></p>
+                <p id="album-name"></p>
+                <p id="artist-name"></p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.2/color-thief.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
