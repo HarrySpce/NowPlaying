@@ -7,6 +7,9 @@ had to make a new repo for this as i hardcoded some api keys in the prev one ðŸ˜
 #### background cycles through colours pulled from the album cover, stops changing if song is paused
 
 live at [np.harry.report](https://np.harry.report)<br>
+
+![preview](public\icons\preview.png)
+
 (logging in will shouldn't work as spotify apps are private and only allow for [5 extra users](https://developer.spotify.com/documentation/web-api/concepts/quota-modes))
 
 ## the method
